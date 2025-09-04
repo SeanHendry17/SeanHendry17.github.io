@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+</head>
+
+<nav>
+    <a href="index.html" alt="HomePage">Home</a>
+    <a href="characters.html" alt="CharactersDOAWK">Characters</a>
+    <a href="facts.html" alt="Fun Facts">Fun Facts</a>
+    <a href="form.html" alt="FunFactDOAWK">Form</a>
+</nav>
+
+<head>
+    <style>
+        body {
+            background:rgb(127, 131, 255);
+            color: rgb(0, 0, 0);
+        }
+    </style>
+
+    <style>
+        textarea {
+                background-color:rgb(0, 0, 0);
+                color:rgb(255, 255, 255);
+            }
+    </style>
+
+    <style>
+        fieldset {
+            width:31%
+
+        }
+    </style>
+
+    <style>
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: rgba(255, 0, 0, 0.938);
+
+        }
+
+    </style>
+
+
+  
+
+
+
+
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Form</title>
+
+
+
+</head>
+
+
+
+
+<body>
+    <form action="form.html" method="post">
+    <p>
+        <h1>Diary Of A Wimpy Kid </h1>
+        <label for="first">First Name:</label>
+        <input type="text" name="first" id="first">
+    </p>
+    <p>
+        <label for="last">Last Name:</label>
+        <input type="text" name="last" id="last">
+    </p>
+    <p>
+        <label for="language">Choose your favorite Diary Of A Wimpy Kid Book:</label><br>
+        <select name="language" id="language">
+            <option value="Book1">Diary Of A Wimpy Kid</option>
+            <option value="Book2">Rodrick Rules</option>
+            <option value=“Book3”>The Last Straw</option>
+            <option value=“Book4”>Dog Days</option>
+        </select> 
+
+    </p>
+    
+    
+    <p>
+    <fieldset>
+    <legend>Choose your favorite character</legend>
+    <div> 
+        <input type="radio" name="char" value="Greg" id="G">
+        <label for="G">Greg Heffley</label>
+    </div>
+    <div>
+        <input type="radio" name="char" value="Rodick" id="Rod">
+        <label for="Rod">Rodrick</label>
+    </div>
+    <div>
+        <input type="radio" name="char" value="Susan" id="Sus">
+        <label for="Sus">Susan</label>
+    </div>
+    <div>
+        <input type="radio" name="char" value="Manny" id="Man">
+        <label for="Man">Manny</label>
+    </div>
+    </p>
+    </fieldset>
+   <br>
+    <div>
+        <textarea name="comment" rows= "10" cols= "50" id="comment" placeholder="Enter your comment..."></textarea>
+    </div> 
+    <div>
+        <input type="submit">
+        <input type="reset">
+    </div>
+
+    </p>
